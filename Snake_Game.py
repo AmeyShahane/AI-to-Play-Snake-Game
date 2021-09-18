@@ -147,12 +147,8 @@ class SnakeGame():
 		pygame.display.flip()
 
 
-
-
-
 if __name__ == '__main__':
 	game = SnakeGame()
-
 	#game loop
 	while True:
 		game_over, score = game.playStep()
